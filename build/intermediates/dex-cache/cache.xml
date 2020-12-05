@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/Users/apple/.gradle/caches/modules-2/files-2.1/com.badlogicgames.gdx/gdx/1.9.6/47d1e9b890e364ec28f128e9bb3b9a12a94c164/gdx-1.9.6.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="047d1e9b890e364ec28f128e9bb3b9a12a94c164">
+        <dex dex="/Volumes/BOOTCAMP/#Github/#EXPERIMENT/ZombieBird-master/android/build/intermediates/pre-dexed/debug/gdx-1.9.6_10352bbe30d85d5633d7945fff308faa68eab654.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Volumes/BOOTCAMP/#Github/#EXPERIMENT/ZombieBird-master/core/build/libs/core-1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="6a9c90bce5cd703a9cc3063f9712886f4df7e41d">
+        <dex dex="/Volumes/BOOTCAMP/#Github/#EXPERIMENT/ZombieBird-master/android/build/intermediates/pre-dexed/debug/core-1.0_052b92a22e6a66346262e995858302d3c3e41705.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/apple/.gradle/caches/modules-2/files-2.1/com.badlogicgames.gdx/gdx-backend-android/1.9.6/57c2831c870743712b808384187ea856e541878f/gdx-backend-android-1.9.6.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="57c2831c870743712b808384187ea856e541878f">
+        <dex dex="/Volumes/BOOTCAMP/#Github/#EXPERIMENT/ZombieBird-master/android/build/intermediates/pre-dexed/debug/gdx-backend-android-1.9.6_70b7ff092c713923a8764144a7b6802ece5bd777.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Volumes/BOOTCAMP/#Github/#EXPERIMENT/ZombieBird-master/android/libs/tween-engine-api.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="8be8beb70b7ccae059d523e56670f6e44fb1821f">
+        <dex dex="/Volumes/BOOTCAMP/#Github/#EXPERIMENT/ZombieBird-master/android/build/intermediates/pre-dexed/debug/tween-engine-api_7e41913c316998fcb146a6d373e4fe7c7d226bd5.jar" />
+    </item>
+
+</items>

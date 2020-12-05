@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: __local_jars__:/Volumes/BOOTCAMP/#Github/ZombieBird/android/libs/tween-engine-api.jar:unspecified">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/android/libs/tween-engine-api.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/android/libs/tween-engine-api-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

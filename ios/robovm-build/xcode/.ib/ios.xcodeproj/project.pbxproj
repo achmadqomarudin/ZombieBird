@@ -1,0 +1,279 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXFileReference section */
+		AB0000001000000000000c /* j_com_badlogic_gdx_backends_iosrobovm_IOSGraphics$1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "j_com_badlogic_gdx_backends_iosrobovm_IOSGraphics$1.h"; path = "com.badlogic.gdx.backends.iosrobovm/j_com_badlogic_gdx_backends_iosrobovm_IOSGraphics$1.h"; sourceTree = SOURCE_ROOT; };
+		AB0000001000000000000d /* j_com_badlogic_gdx_backends_iosrobovm_IOSGraphics$1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "j_com_badlogic_gdx_backends_iosrobovm_IOSGraphics$1.m"; path = "com.badlogic.gdx.backends.iosrobovm/j_com_badlogic_gdx_backends_iosrobovm_IOSGraphics$1.m"; sourceTree = SOURCE_ROOT; };
+		AB0000001000000000000f /* j_com_badlogic_gdx_backends_iosrobovm_IOSGraphics$IOSUIViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "j_com_badlogic_gdx_backends_iosrobovm_IOSGraphics$IOSUIViewController.h"; path = "com.badlogic.gdx.backends.iosrobovm/j_com_badlogic_gdx_backends_iosrobovm_IOSGraphics$IOSUIViewController.h"; sourceTree = SOURCE_ROOT; };
+		AB00000010000000000010 /* j_com_badlogic_gdx_backends_iosrobovm_IOSGraphics$IOSUIViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "j_com_badlogic_gdx_backends_iosrobovm_IOSGraphics$IOSUIViewController.m"; path = "com.badlogic.gdx.backends.iosrobovm/j_com_badlogic_gdx_backends_iosrobovm_IOSGraphics$IOSUIViewController.m"; sourceTree = SOURCE_ROOT; };
+		AB00000010000000000012 /* j_com_badlogic_gdx_backends_iosrobovm_IOSGraphics$IOSUIView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "j_com_badlogic_gdx_backends_iosrobovm_IOSGraphics$IOSUIView.h"; path = "com.badlogic.gdx.backends.iosrobovm/j_com_badlogic_gdx_backends_iosrobovm_IOSGraphics$IOSUIView.h"; sourceTree = SOURCE_ROOT; };
+		AB00000010000000000013 /* j_com_badlogic_gdx_backends_iosrobovm_IOSGraphics$IOSUIView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "j_com_badlogic_gdx_backends_iosrobovm_IOSGraphics$IOSUIView.m"; path = "com.badlogic.gdx.backends.iosrobovm/j_com_badlogic_gdx_backends_iosrobovm_IOSGraphics$IOSUIView.m"; sourceTree = SOURCE_ROOT; };
+		AB00000010000000000015 /* j_com_badlogic_gdx_backends_iosrobovm_IOSInput$HiddenTextField.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "j_com_badlogic_gdx_backends_iosrobovm_IOSInput$HiddenTextField.h"; path = "com.badlogic.gdx.backends.iosrobovm/j_com_badlogic_gdx_backends_iosrobovm_IOSInput$HiddenTextField.h"; sourceTree = SOURCE_ROOT; };
+		AB00000010000000000016 /* j_com_badlogic_gdx_backends_iosrobovm_IOSInput$HiddenTextField.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "j_com_badlogic_gdx_backends_iosrobovm_IOSInput$HiddenTextField.m"; path = "com.badlogic.gdx.backends.iosrobovm/j_com_badlogic_gdx_backends_iosrobovm_IOSInput$HiddenTextField.m"; sourceTree = SOURCE_ROOT; };
+		AB00000010000000000047 /* Prefix.pch */ = {isa = PBXFileReference; name = "Prefix.pch"; path = "Prefix.pch"; sourceTree = SOURCE_ROOT; };
+		AB00000010000000000019 /* Default-568h@2x.png */ = {isa = PBXFileReference; name = "Default-568h@2x.png"; path = "../../../data/Default-568h@2x.png"; sourceTree = SOURCE_ROOT; };
+		AB0000001000000000001a /* Default-414w-736h@3x.png */ = {isa = PBXFileReference; name = "Default-414w-736h@3x.png"; path = "../../../data/Default-414w-736h@3x.png"; sourceTree = SOURCE_ROOT; };
+		AB0000001000000000001b /* Icon.png */ = {isa = PBXFileReference; name = "Icon.png"; path = "../../../data/Icon.png"; sourceTree = SOURCE_ROOT; };
+		AB0000001000000000001f /* Default~ipad.png */ = {isa = PBXFileReference; name = "Default~ipad.png"; path = "../../../data/Default~ipad.png"; sourceTree = SOURCE_ROOT; };
+		AB00000010000000000020 /* Icon-72@2x.png */ = {isa = PBXFileReference; name = "Icon-72@2x.png"; path = "../../../data/Icon-72@2x.png"; sourceTree = SOURCE_ROOT; };
+		AB00000010000000000021 /* Default.png */ = {isa = PBXFileReference; name = "Default.png"; path = "../../../data/Default.png"; sourceTree = SOURCE_ROOT; };
+		AB00000010000000000023 /* Default@2x.png */ = {isa = PBXFileReference; name = "Default@2x.png"; path = "../../../data/Default@2x.png"; sourceTree = SOURCE_ROOT; };
+		AB00000010000000000024 /* Default-375w-667h@2x.png */ = {isa = PBXFileReference; name = "Default-375w-667h@2x.png"; path = "../../../data/Default-375w-667h@2x.png"; sourceTree = SOURCE_ROOT; };
+		AB00000010000000000028 /* Icon@2x.png */ = {isa = PBXFileReference; name = "Icon@2x.png"; path = "../../../data/Icon@2x.png"; sourceTree = SOURCE_ROOT; };
+		AB0000001000000000002c /* Default@2x~ipad.png */ = {isa = PBXFileReference; name = "Default@2x~ipad.png"; path = "../../../data/Default@2x~ipad.png"; sourceTree = SOURCE_ROOT; };
+		AB00000010000000000030 /* Default-1024w-1366h@2x~ipad.png */ = {isa = PBXFileReference; name = "Default-1024w-1366h@2x~ipad.png"; path = "../../../data/Default-1024w-1366h@2x~ipad.png"; sourceTree = SOURCE_ROOT; };
+		AB00000010000000000031 /* Icon-72.png */ = {isa = PBXFileReference; name = "Icon-72.png"; path = "../../../data/Icon-72.png"; sourceTree = SOURCE_ROOT; };
+		AB0000001000000000001d /* Thumbs.db */ = {isa = PBXFileReference; name = "Thumbs.db"; path = "../../../../android/assets/data/Thumbs.db"; sourceTree = SOURCE_ROOT; };
+		AB0000001000000000001e /* dead.wav */ = {isa = PBXFileReference; name = "dead.wav"; path = "../../../../android/assets/data/dead.wav"; sourceTree = SOURCE_ROOT; };
+		AB00000010000000000022 /* texture.png */ = {isa = PBXFileReference; name = "texture.png"; path = "../../../../android/assets/data/texture.png"; sourceTree = SOURCE_ROOT; };
+		AB00000010000000000025 /* flap.wav */ = {isa = PBXFileReference; name = "flap.wav"; path = "../../../../android/assets/data/flap.wav"; sourceTree = SOURCE_ROOT; };
+		AB00000010000000000026 /* ic_zombie_bird.png */ = {isa = PBXFileReference; name = "ic_zombie_bird.png"; path = "../../../../android/assets/data/ic_zombie_bird.png"; sourceTree = SOURCE_ROOT; };
+		AB00000010000000000027 /* shadow.fnt */ = {isa = PBXFileReference; name = "shadow.fnt"; path = "../../../../android/assets/data/shadow.fnt"; sourceTree = SOURCE_ROOT; };
+		AB00000010000000000029 /* shadow.png */ = {isa = PBXFileReference; name = "shadow.png"; path = "../../../../android/assets/data/shadow.png"; sourceTree = SOURCE_ROOT; };
+		AB0000001000000000002a /* logo.png */ = {isa = PBXFileReference; name = "logo.png"; path = "../../../../android/assets/data/logo.png"; sourceTree = SOURCE_ROOT; };
+		AB0000001000000000002b /* coin.wav */ = {isa = PBXFileReference; name = "coin.wav"; path = "../../../../android/assets/data/coin.wav"; sourceTree = SOURCE_ROOT; };
+		AB0000001000000000002d /* text.fnt */ = {isa = PBXFileReference; name = "text.fnt"; path = "../../../../android/assets/data/text.fnt"; sourceTree = SOURCE_ROOT; };
+		AB0000001000000000002e /* achmadqomarudin_logo.png */ = {isa = PBXFileReference; name = "achmadqomarudin_logo.png"; path = "../../../../android/assets/data/achmadqomarudin_logo.png"; sourceTree = SOURCE_ROOT; };
+		AB0000001000000000002f /* text.png */ = {isa = PBXFileReference; name = "text.png"; path = "../../../../android/assets/data/text.png"; sourceTree = SOURCE_ROOT; };
+		AB00000010000000000032 /* fall.wav */ = {isa = PBXFileReference; name = "fall.wav"; path = "../../../../android/assets/data/fall.wav"; sourceTree = SOURCE_ROOT; };
+		AB00000010000000000035 /* whitetext.png */ = {isa = PBXFileReference; name = "whitetext.png"; path = "../../../../android/assets/data/whitetext.png"; sourceTree = SOURCE_ROOT; };
+		AB00000010000000000036 /* whitetext.fnt */ = {isa = PBXFileReference; name = "whitetext.fnt"; path = "../../../../android/assets/data/whitetext.fnt"; sourceTree = SOURCE_ROOT; };
+		AB00000010000000000034 /* badlogic.jpg */ = {isa = PBXFileReference; name = "badlogic.jpg"; path = "../../../../android/assets/badlogic.jpg"; sourceTree = SOURCE_ROOT; };
+		AB00000010000000000037 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "UIKit.framework"; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		AB00000010000000000039 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "OpenGLES.framework"; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		AB0000001000000000003b /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "QuartzCore.framework"; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		AB0000001000000000003d /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "CoreGraphics.framework"; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		AB0000001000000000003f /* OpenAL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "OpenAL.framework"; path = System/Library/Frameworks/OpenAL.framework; sourceTree = SDKROOT; };
+		AB00000010000000000041 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "AudioToolbox.framework"; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		AB00000010000000000043 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "AVFoundation.framework"; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		AB00000010000000000045 /* UIKIT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "UIKIT.framework"; path = System/Library/Frameworks/UIKIT.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		AB00000010000000000001 /* root */ = {
+			isa = PBXGroup;
+			children = (
+				AB00000010000000000004 /* frameworks */,
+				AB00000010000000000003 /* resources */,
+				AB00000010000000000002 /* sources */,
+			);
+			name = "root";
+			sourceTree = "<group>";
+		};
+		AB00000010000000000002 /* sources */ = {
+			isa = PBXGroup;
+			children = (
+				AB0000001000000000000b /* com.badlogic.gdx.backends.iosrobovm */,
+				AB00000010000000000047 /* Prefix.pch */,
+			);
+			name = "sources";
+			sourceTree = "<group>";
+		};
+		AB0000001000000000000b /* com.badlogic.gdx.backends.iosrobovm */ = {
+			isa = PBXGroup;
+			children = (
+				AB0000001000000000000c /* j_com_badlogic_gdx_backends_iosrobovm_IOSGraphics$1.h */,
+				AB0000001000000000000d /* j_com_badlogic_gdx_backends_iosrobovm_IOSGraphics$1.m */,
+				AB00000010000000000012 /* j_com_badlogic_gdx_backends_iosrobovm_IOSGraphics$IOSUIView.h */,
+				AB00000010000000000013 /* j_com_badlogic_gdx_backends_iosrobovm_IOSGraphics$IOSUIView.m */,
+				AB0000001000000000000f /* j_com_badlogic_gdx_backends_iosrobovm_IOSGraphics$IOSUIViewController.h */,
+				AB00000010000000000010 /* j_com_badlogic_gdx_backends_iosrobovm_IOSGraphics$IOSUIViewController.m */,
+				AB00000010000000000015 /* j_com_badlogic_gdx_backends_iosrobovm_IOSInput$HiddenTextField.h */,
+				AB00000010000000000016 /* j_com_badlogic_gdx_backends_iosrobovm_IOSInput$HiddenTextField.m */,
+			);
+			name = "com.badlogic.gdx.backends.iosrobovm";
+			sourceTree = "<group>";
+		};
+		AB00000010000000000003 /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				AB00000010000000000033 /* ../android/assets */,
+				AB0000001000000000001c /* ../android/assets/data */,
+				AB00000010000000000018 /* data */,
+			);
+			name = "resources";
+			sourceTree = "<group>";
+		};
+		AB00000010000000000018 /* data */ = {
+			isa = PBXGroup;
+			children = (
+				AB00000010000000000030 /* Default-1024w-1366h@2x~ipad.png */,
+				AB00000010000000000024 /* Default-375w-667h@2x.png */,
+				AB0000001000000000001a /* Default-414w-736h@3x.png */,
+				AB00000010000000000019 /* Default-568h@2x.png */,
+				AB00000010000000000021 /* Default.png */,
+				AB00000010000000000023 /* Default@2x.png */,
+				AB0000001000000000002c /* Default@2x~ipad.png */,
+				AB0000001000000000001f /* Default~ipad.png */,
+				AB00000010000000000031 /* Icon-72.png */,
+				AB00000010000000000020 /* Icon-72@2x.png */,
+				AB0000001000000000001b /* Icon.png */,
+				AB00000010000000000028 /* Icon@2x.png */,
+			);
+			name = "data";
+			sourceTree = "<group>";
+		};
+		AB0000001000000000001c /* ../android/assets/data */ = {
+			isa = PBXGroup;
+			children = (
+				AB0000001000000000001d /* Thumbs.db */,
+				AB0000001000000000002e /* achmadqomarudin_logo.png */,
+				AB0000001000000000002b /* coin.wav */,
+				AB0000001000000000001e /* dead.wav */,
+				AB00000010000000000032 /* fall.wav */,
+				AB00000010000000000025 /* flap.wav */,
+				AB00000010000000000026 /* ic_zombie_bird.png */,
+				AB0000001000000000002a /* logo.png */,
+				AB00000010000000000027 /* shadow.fnt */,
+				AB00000010000000000029 /* shadow.png */,
+				AB0000001000000000002d /* text.fnt */,
+				AB0000001000000000002f /* text.png */,
+				AB00000010000000000022 /* texture.png */,
+				AB00000010000000000036 /* whitetext.fnt */,
+				AB00000010000000000035 /* whitetext.png */,
+			);
+			name = "../android/assets/data";
+			sourceTree = "<group>";
+		};
+		AB00000010000000000033 /* ../android/assets */ = {
+			isa = PBXGroup;
+			children = (
+				AB00000010000000000034 /* badlogic.jpg */,
+			);
+			name = "../android/assets";
+			sourceTree = "<group>";
+		};
+		AB00000010000000000004 /* frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AB00000010000000000043 /* AVFoundation.framework */,
+				AB00000010000000000041 /* AudioToolbox.framework */,
+				AB0000001000000000003d /* CoreGraphics.framework */,
+				AB0000001000000000003f /* OpenAL.framework */,
+				AB00000010000000000039 /* OpenGLES.framework */,
+				AB0000001000000000003b /* QuartzCore.framework */,
+				AB00000010000000000045 /* UIKIT.framework */,
+				AB00000010000000000037 /* UIKit.framework */,
+			);
+			name = "frameworks";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBVariantXGroup section */
+/* End PBVariantXGroup section */
+
+/* Begin PBXBuildFile section */
+		AB0000001000000000000e /* j_com_badlogic_gdx_backends_iosrobovm_IOSGraphics$1.m */ = {isa = PBXBuildFile; fileRef = AB0000001000000000000d /* j_com_badlogic_gdx_backends_iosrobovm_IOSGraphics$1.m */; };
+		AB00000010000000000011 /* j_com_badlogic_gdx_backends_iosrobovm_IOSGraphics$IOSUIViewController.m */ = {isa = PBXBuildFile; fileRef = AB00000010000000000010 /* j_com_badlogic_gdx_backends_iosrobovm_IOSGraphics$IOSUIViewController.m */; };
+		AB00000010000000000014 /* j_com_badlogic_gdx_backends_iosrobovm_IOSGraphics$IOSUIView.m */ = {isa = PBXBuildFile; fileRef = AB00000010000000000013 /* j_com_badlogic_gdx_backends_iosrobovm_IOSGraphics$IOSUIView.m */; };
+		AB00000010000000000017 /* j_com_badlogic_gdx_backends_iosrobovm_IOSInput$HiddenTextField.m */ = {isa = PBXBuildFile; fileRef = AB00000010000000000016 /* j_com_badlogic_gdx_backends_iosrobovm_IOSInput$HiddenTextField.m */; };
+		AB00000010000000000038 /* UIKit.framework */ = {isa = PBXBuildFile; fileRef = AB00000010000000000037 /* UIKit.framework */; };
+		AB0000001000000000003a /* OpenGLES.framework */ = {isa = PBXBuildFile; fileRef = AB00000010000000000039 /* OpenGLES.framework */; };
+		AB0000001000000000003c /* QuartzCore.framework */ = {isa = PBXBuildFile; fileRef = AB0000001000000000003b /* QuartzCore.framework */; };
+		AB0000001000000000003e /* CoreGraphics.framework */ = {isa = PBXBuildFile; fileRef = AB0000001000000000003d /* CoreGraphics.framework */; };
+		AB00000010000000000040 /* OpenAL.framework */ = {isa = PBXBuildFile; fileRef = AB0000001000000000003f /* OpenAL.framework */; };
+		AB00000010000000000042 /* AudioToolbox.framework */ = {isa = PBXBuildFile; fileRef = AB00000010000000000041 /* AudioToolbox.framework */; };
+		AB00000010000000000044 /* AVFoundation.framework */ = {isa = PBXBuildFile; fileRef = AB00000010000000000043 /* AVFoundation.framework */; };
+		AB00000010000000000046 /* UIKIT.framework */ = {isa = PBXBuildFile; fileRef = AB00000010000000000045 /* UIKIT.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AB00000010000000000008 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB0000001000000000000e /* j_com_badlogic_gdx_backends_iosrobovm_IOSGraphics$1.m */,
+				AB00000010000000000011 /* j_com_badlogic_gdx_backends_iosrobovm_IOSGraphics$IOSUIViewController.m */,
+				AB00000010000000000014 /* j_com_badlogic_gdx_backends_iosrobovm_IOSGraphics$IOSUIView.m */,
+				AB00000010000000000017 /* j_com_badlogic_gdx_backends_iosrobovm_IOSInput$HiddenTextField.m */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AB00000010000000000009 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB00000010000000000038 /* UIKit.framework */,
+				AB0000001000000000003a /* OpenGLES.framework */,
+				AB0000001000000000003c /* QuartzCore.framework */,
+				AB0000001000000000003e /* CoreGraphics.framework */,
+				AB00000010000000000040 /* OpenAL.framework */,
+				AB00000010000000000042 /* AudioToolbox.framework */,
+				AB00000010000000000044 /* AVFoundation.framework */,
+				AB00000010000000000046 /* UIKIT.framework */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		AB0000001000000000000a /* RoboVM */ = {
+			isa = PBXNativeTarget;
+			buildPhases = (
+				AB00000010000000000008 /* Sources */,
+				AB00000010000000000009 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "RoboVM";
+			productName = "RoboVM";
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin XCBuildConfiguration section */
+		AB00000010000000000007 /* RoboVM */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				SDKROOT = iphoneos;
+				PRODUCT_NAME = "RoboVM";
+				GCC_PRECOMPILE_PREFIX_HEADER = "YES";
+				GCC_PREFIX_HEADER = Prefix.pch;
+			};
+			name = "RoboVM";
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AB00000010000000000006 /* Build configuration list for PBXProject */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB00000010000000000007 /* RoboVM */,
+			);
+			defaultConfigurationName = RoboVM;
+		};
+/* End XCConfigurationList section */
+
+/* Begin PBXProject section */
+		AB00000010000000000000 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = AB00000010000000000006 /* Build configuration list for PBXProject */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AB00000010000000000001;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AB0000001000000000000a /* RoboVM */,
+			);
+		};
+/* End PBXProject section */
+
+	};
+	rootObject = AB00000010000000000000 /* Project object */;
+}
